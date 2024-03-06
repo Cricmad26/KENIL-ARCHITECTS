@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KENIL : Design spaces that inspires</title>
+    <link rel="icon" href="./images/fav2.png">
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- css file -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <header id="home">
+        <div class="container_content">
+          <div class="container">
+            <div class="icon flex1">
+              <div class="box">
+                <i class="fa fa-facebook"></i>
+                <i class="fa fa-instagram"></i>
+                <i class="fa fa-youtube"></i>
+                <i class="fa fa-twitter"></i>
+              </div>
+              <div class="box">
+                <i class="fa fa-envelope"></i>
+                <label>kenilarc@gmail.com</label>
+                <i class=" fa fa-phone"></i>
+                <label>+91 8712268387</label>
+              </div>
+            </div>
+            <hr>
+            <nav>
+              <div class="barnd">
+                <h1>KENIL</h1>
+              </div>
+              <ul id="menu">
+                <li><a href="#HOME">HOME</a></li>
+                <li><a href="#ABOUT">ABOUT</a></li>
+                <!-- <li><a href="#Testimonials">Testimonials</a></li> -->
+                <li><a href="#BLOG">BLOG</a></li>
+                <!-- <li><a href="#PHOTO">PHOTO</a></li> -->
+                <li><a href="#">CONTACT</a></li>
+              </ul>
+              <i id="icon" class="fa fa-bars"></i>
+            </nav>
+            <div class="home">
+              <h3>DESIGN SPACES THAT INSPIRES</h3>
+              <!-- <h1>Experience Interior <br> Design</h1>
+     -->
+              <div class="item grid">
+                <div class="item_box flex">
+                  <img src="./images/Archtechtural-drawings.png" width="80px"class="img">
+                  <div class="text">
+                    <a>Architectural Drawings</a>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit </p>
+                  </div>
+                </div>
+                <div class="item_box flex ">
+                  <img src="./images/interior-design.png" width="80px"class="img">
+                  <div class="text">
+                    <a>Interior Design</a>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit </p>
+                  </div>
+                </div>
+                <div class="item_box flex">
+                  <img src="./images/furnitures.png" width="80px"class="img">
+                  <div class="text">
+                    <a>Furniture</a>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+      
+      <section class="about" id="ABOUT">
+        <div class="container flex1">
+          <div class="left">
+            <div class="img">
+              <img src="./images/architecture1.jpg" alt="">
+            </div>
+          </div>
+    
+    
+          <div class="right">
+            <h5>WHY US</h5>
+            <h2>Why Us</h2>
+            <button class="accordion  "> <label>1. What Shold i do if my interior broken?</label> </button>
+            <div class="panel active">
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+                aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div>
+    
+            <button class="accordion">2. what is your location</button>
+            <div class="panel">
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+                aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div>
+    
+            <button class="accordion">3. robus building</button>
+            <div class="panel">
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+                aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div>
+    
+            <button class="accordion"> 4. what is your main services?</button>
+            <div class="panel">
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+                aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div>
+          </div>
+    
+        </div>
+      </section>
+    
+      <script>
+        var acc = document.getElementsByClassName("accordion");
+        var i;
+    
+        for (i = 0; i < acc.length; i++) {
+          acc[i].addEventListener("click", function() {
+            this.classList.toggle("active");
+            var panel = this.nextElementSibling;
+            if (panel.style.display === "block") {
+              panel.style.display = "none";
+            } else {
+              panel.style.display = "block";
+            }
+          });
+        }
+
+      </script>
+       <!-- <section class="about photo" id="PHOTO">
+        <div class="container flex1">
+          <div class="left">
+            <div class="img">
+              <img src="image/p1.jpg" alt="">
+            </div>
+          </div>
+    
+          <div class="right grid1">
+            <div class="box">
+              <img src="image/i7.png" alt="">
+              <h3>House Decor</h3>
+            </div>
+            <div class="box">
+              <img src="image/i4.png" alt="">
+              <h3>Seat Decor</h3>
+            </div>
+            <div class="box">
+              <img src="image/i5.png" alt="">
+              <h3>Intuitive Idea</h3>
+            </div>
+            <div class="box">
+              <img src="image/i6.png" alt="">
+              <h3>Decoration</h3>
+            </div>
+          </div>
+    
+    
+        </div>
+      </section> -->
+
+      <section class="blog" id="BLOG">
+        <div class="container  ">
+          <h5>NEWS & UPDATE</h5>
+          <h2>Our Blog Posts</h2> <br><br>
+          <div class="content grid">
+            <div class="box">
+              <div class="img">
+                <img src="image/p3.jpg" alt="">
+              </div>
+              <div class="text">
+                <label>122565525</label><br>
+                <p>Architecture is ready to take the world to the next level</p>
+              </div>
+            </div>
+            <div class="box">
+              <div class="img">
+                <img src="image/p2.jpg" alt="">
+              </div>
+              <div class="text">
+                <label>135465</label><br>
+                <p>Architecture is ready to take the world to the next level</p>
+              </div>
+            </div>
+            <div class="box">
+              <div class="img">
+                <img src="image/p1.jpg" alt="">
+              </div>
+              <div class="text">
+                <label>3215454654654</label><br>
+                <p>Architecture is ready to take the world to the next level</p>
+              </div>
+            </div>
+          </div>
+    
+          <!-- <a href="#">View All Posts</a> -->
+        </div>
+      </section>
+
+      <footer>
+        <div class="container">
+          <div class="content grid">
+            <div class="item ">
+              <h3>Navigation</h3>
+              <div class="item_box flex1 ">
+                <ul>
+                  <li>Home</li>
+                  <li>Servies</li>
+                  <li>News</li>
+                  <li>Team</li>
+                </ul>
+                <ul>
+                  <li>About Us</li>
+                  <li>Privacy Policy</li>
+                  <li>Contact</li>
+                  <!-- <li>Membership</li> -->
+                </ul>
+              </div>
+            </div>
+    
+            <div class="item">
+              <!-- <h3>Recent News</h3>
+              <div class="box flex">
+                <div class="img">
+                  <img src="image/p1.jpg" alt="">
+                </div>
+                <div class="text">
+                  <label>SEP 16, 2021</label>
+                  <p>Lorem ipsum dolor sit amet consectetur</p>
+                </div>
+              </div> -->
+              <!-- <div class="box flex">
+                <div class="img">
+                  <img src="image/p1.jpg" alt="">
+                </div>
+                <div class="text">
+                  <label>SEP 16, 2021</label>
+                  <p>Lorem ipsum dolor sit amet consectetur</p>
+                </div>
+              </div> -->
+              <!-- <div class="box flex">
+                <div class="img">
+                  <img src="image/p1.jpg" alt="">
+                </div>
+                <div class="text">
+                  <label>SEP 16, 2021</label>
+                  <p>Lorem ipsum dolor sit amet consectetur</p>
+                </div>
+              </div> -->
+            </div>
+    
+            <div class="item">
+              <!-- <h3>Subscribe Newsletter</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit minima minus odio.</p>
+              <input type="text" placeholder="Enter Email">
+              <label class="label">Send</label> -->
+              <div class="icon">
+                <h3>Follow Us</h3>
+                <i class="fa fa-facebook"></i>
+                <i class="fa fa-instagram"></i>
+                <i class="fa fa-youtube"></i>
+                <i class="fa fa-twitter"></i>
+              </div>
+            </div>
+          </div>
+          <p class="legal">&copy; 2024 KENIL ARCHITECTS</p>
+        </div>
+      </footer>
+    
+      
+</body>
+<script src="./app.js"></script>
+  
+</html>
