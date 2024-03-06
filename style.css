@@ -224,7 +224,7 @@ html{
     }
 
     header{
-        background-image: url(../KENILASSOCIATES/images/home.jpg);
+        background-image: url(./images/home.jpg);
         background-size: cover;
         height: 100vh !important;
     }
@@ -523,7 +523,7 @@ footer .content li {
 
   /*----global ----*/
   header {
-    background-image: url("../image/back.jpg");
+    background-image: url("./image/back.jpg");
     height: 120vh !important;
   }
 
