@@ -21,15 +21,16 @@ html{
   .flex {
     display: flex;
   }
-  
+   
   .grid {
+    margin-top: 20px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-column-gap: 40px;
     grid-row-gap: 40px;
   }
-  
   .grid1 {
+    /* margin-top: 20px; */
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-column-gap: 40px;
@@ -154,6 +155,7 @@ html{
   }
   
   header .home .item .item_box {
+    margin-top: 45px;
     background: rgba(170, 168, 168, 0.4);
     padding: 40px;
     border-radius: 5px;
@@ -482,7 +484,7 @@ footer .content li {
 }
 header ul{
     background: #ECF0F1;
-    display: block;
+    display: none;
     transition: 0.5s;
     top: -20px;
     width: 70%;
@@ -596,6 +598,7 @@ header .home .item .item_box{
   }
 
   header .home .item .item_box {
+    margin-top: -15px;
     padding: 10px;
   }
 
@@ -605,7 +608,7 @@ header .home .item .item_box{
     margin-top: 10px;
   }
 
-  header .home .item img {
+  header .home .item .img {
     width: 60px;
     height: 60px;
   }
