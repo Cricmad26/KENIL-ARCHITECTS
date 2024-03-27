@@ -561,7 +561,7 @@ header .home .item .item_box{
 }
 
 
-@media only screen and (max-width: 360px) {
+@media only screen and (max-width: 345px) {
   .flex1 {
     display: flex;
     justify-content: space-between;
@@ -577,7 +577,7 @@ header .home .item .item_box{
 
   /*----global ----*/
   header {
-    background-image: url("./image/back.jpg");
+    background-image: url("./images/home.jpg");
     height: 120vh !important;
   }
 
